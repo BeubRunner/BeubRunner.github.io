@@ -1,12 +1,16 @@
+a:hover {
+    cursor: default;
+}
+
 .img_round_frame {
     height: 10vh;
-    clip-path:circle(50%);
+    border-radius: 50%;
     filter: blur(5px);
     transition: 300ms ease-in-out;
 }
 
 .img_round_frame:hover {
-    transform:scale(1.2);
+    transform:scale(1.1);
     filter:none;
 }
 
@@ -27,10 +31,6 @@
 }
 
 .background span {
-    width: 15vmin;
-    height: 15vmin;
-    border-radius: 15vmin;
-    backface-visibility: hidden;
     position: absolute;
     animation: move;
     animation-duration: 45;

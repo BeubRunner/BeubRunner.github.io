@@ -4,7 +4,6 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
-    font-size: 15px;
 }
 
 div {
@@ -23,10 +22,24 @@ div {
 }
 
 .img_round_frame {
-    clip-path:ellipse(50% 50%);
+    height: 36vmin;
+    border-radius: 50%;
+    transition: 300ms ease-in-out;
+}
+
+.img_round_frame:hover {
+    animation: barrelRoll ;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes barrelRoll {
+    100% { transform: rotate(360deg); }
 }
 
 #coming_soon {
+    font-size: 4vmin;
+    text-align: center;
     text-transform: uppercase;
-    font-size: 30px;
 }
