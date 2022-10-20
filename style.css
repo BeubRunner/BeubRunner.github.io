@@ -22,7 +22,7 @@ div {
 }
 
 .img_round_frame {
-    height: 36vmin;
+    height: min(36vmin, 250px);
     border-radius: 50%;
     transition: 300ms ease-in-out;
 }
@@ -39,7 +39,7 @@ div {
 }
 
 #coming_soon {
-    font-size: 4vmin;
+    font-size: min(4vmin, 30px);
     text-align: center;
     text-transform: uppercase;
 }

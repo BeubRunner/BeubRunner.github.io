@@ -3,9 +3,9 @@ a:hover {
 }
 
 .img_round_frame {
-    height: 10vh;
+    height: max(15vh, 80px);
     border-radius: 50%;
-    filter: blur(5px);
+    filter: blur(3px);
     transition: 300ms ease-in-out;
 }
 
