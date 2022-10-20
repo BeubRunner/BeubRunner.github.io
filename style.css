@@ -11,6 +11,10 @@ div {
     min-height: 100vh;
   }
 
+  a:hover {
+    cursor:default ;
+  }
+
 .flexbox_column {
     display: flex;
     justify-content: center;
